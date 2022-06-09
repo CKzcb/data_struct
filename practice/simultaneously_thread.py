@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 """
 @Project ：mrProtein 
-@File    ：simultaneously.py
+@File    ：simultaneously_thread.py
 @Author  ：mrProtein
 @Date    ：2022/6/9
 @Desc    :
@@ -180,6 +180,6 @@ if __name__ == '__main__':
     t_b.start()
     t_c.start()
 
-    t_a.join()
-    t_b.join()
-    t_c.join()
+    # t_a.join()
+    # t_b.join()
+    # t_c.join()
